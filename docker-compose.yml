@@ -1,0 +1,7 @@
+version: '2.4'
+
+services:
+  sensing:
+    image: power_monitoring
+    build: .
+    privileged: true
