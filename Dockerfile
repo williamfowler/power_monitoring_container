@@ -34,7 +34,7 @@ RUN pip3 install adafruit-circuitpython-ina219 board RPi_GPIO
 # Create a directory for the application
 WORKDIR /app
 
-# Copy the application code
+# Copy the application cod  e
 COPY monitor_power.py .
 
 # # Set the entry point to the Python script
