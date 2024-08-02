@@ -41,7 +41,7 @@ def log_data():
             })
 
             # Wait for one second before taking the next reading
-            time.sleep(1)
+            time.sleep(60)
 
 if __name__ == "__main__":
     log_data()
