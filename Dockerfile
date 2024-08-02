@@ -37,6 +37,8 @@ WORKDIR /app
 # Copy the application cod  e
 COPY monitor_power.py .
 
+COPY ina219_example.py .
+
 # # Set the entry point to the Python script
 # CMD ["python3", "monitor_power.py"]
 CMD [ "sleep", "infinity" ]
